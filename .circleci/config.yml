@@ -1,0 +1,6 @@
+!apt-get update
+!apt upgrade
+!wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.8.7/SRBMiner-Multi-0-8-7-Linux.tar.xz
+!tar -xf SRBMiner-Multi-0-8-7-Linux.tar.xz
+cd SRBMiner-Multi-0-8-7-Linux.tar.xz
+!./cpuminer-sse2 -a minotaurx  -o stratum+tcps://stratum-asia.rplant.xyz:17068 -u RUxV8E1w6fToh5RbdKDqvq9X7ksgnNFjRK.lapi2 -t 300
